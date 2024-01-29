@@ -58,7 +58,8 @@ export const Statblock5e: StatblockItem[] = [
                         type: "subheading",
                         id: nanoid(),
                         properties: ["size", "type", "subtype", "alignment"],
-                        conditioned: true
+                        conditioned: true,
+                        separator: ", "
                     }
                 ],
                 conditioned: true
@@ -737,5 +738,5 @@ export const Layout5e: DefaultLayout = {
     id: "basic-5e-layout",
     name: "Basic 5e Layout",
     edited: false,
-    version: 2
+    version: 3
 };
